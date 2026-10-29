@@ -8,9 +8,9 @@ import streamlit as st
 from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
 
-JSON_PATH = r"data\diseases_txt.json"
-FAISS_PATH = r"data\diseases.faiss"
-BM25_PATH = r"data\bm25.pkl"
+JSON_PATH = "data/diseases_txt.json"
+FAISS_PATH = "data/diseases.faiss"
+BM25_PATH = "data/bm25.pkl"
 
 MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 
